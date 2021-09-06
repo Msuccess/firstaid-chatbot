@@ -8,6 +8,6 @@ export class AppController {
   @Get()
   getBotDialog(@Res() res) {
     this.botService.botMessage();
-    res.status(HttpStatus.OK).send('Bot service started');
+    res.status(HttpStatus.OK).send('<h1>Bot service started</h1>');
   }
 }
