@@ -11,7 +11,7 @@ export class AppService {
     // eslint-disable-next-line @typescript-eslint/no-var-requires
     const TelegramBot = require('node-telegram-bot-api');
 
-    const token = '1939341410:AAGml7NK';
+    const token = '2128153816:AAGJhTrdCiI9R8o6Kiplc3NRPewcyOlRFaA';
 
     const bot = new TelegramBot(token, { polling: true });
     bot.on('message', (msg) => {
